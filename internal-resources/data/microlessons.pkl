@@ -9,24 +9,30 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+whatIsFlask = new Template.Microlesson {
+  friendlyName = "What is Flask?"
+  dirName = "what-is-flask"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+creatingABasicFlaskServer = new Template.Microlesson {
+  friendlyName = "Creating a Basic Flask Server"
+  dirName = "creating-a-basic-flask-server"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+definingRestfulRoutes = new Template.Microlesson {
+  friendlyName = "Defining RESTful Routes"
+  dirName = "defining-restful-routes"
   type = "Content"
   videoUrl = ""
 }
 
+wrapUp = new Template.Microlesson {
+  friendlyName = "Wrap Up"
+  dirName = "wrap-up"
+  type = "Content"
+  videoUrl = ""
+}

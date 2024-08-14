@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[tktk Module Name]</span>
+  <span class="headline">Server Development with Flask</span>
   <span class="subhead">References</span>
 </h1>
 

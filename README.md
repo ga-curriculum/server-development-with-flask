@@ -1,6 +1,6 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Module Name]</span>
+  <span class="headline">Server Development with Flask</span>
 </h1>
 
 ## About
@@ -9,13 +9,13 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ## Content
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                          | -- | -- | Setting up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | -- | tktk skills covered                     |
-| **Total content**                                   | -- | -- |                                         |
+| Lesson                                                                     | Skills                                                    |
+| -------------------------------------------------------------------------- | --------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                 | Setting up the development environment.                   |
+| [What is Flask?](./what-is-flask/README.md)                                | tktk skills covered                                       |
+| [Creating a Basic Flask Server](./creating-a-basic-flask-server/README.md) | tktk skills covered                                       |
+| [Defining RESTful Routes](./defining-restful-routes/README.md)             | tktk skills covered                                       |
+| [Wrap Up](./wrap-up/README.md)                                             | Reviewing key concepts and preparing for the next module. |
 
 ## References
 

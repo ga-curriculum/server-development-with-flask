@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">[tktk Module Name]</span>
+  <span class="headline">Server Development with Flask</span>
   <span class="subhead">Setup</span>
 </h1>
 
@@ -11,11 +11,11 @@ Open your Terminal application and navigate to your <code class="filepath">~/cod
 cd ~/code/ga/lectures
 ```
 
-Make a new directory called <code class="filepath">[tktk-module-name]</code>, then enter this directory:
+Make a new directory called <code class="filepath">[server-development-with-flask]</code>, then enter this directory:
 
 ```bash
-mkdir [tktk-module-name]
-cd [tktk-module-name]
+mkdir [server-development-with-flask]
+cd [server-development-with-flask]
 ```
 
 <!-- Other setup instructions here -->
