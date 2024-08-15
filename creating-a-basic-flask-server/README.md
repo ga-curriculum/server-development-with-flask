@@ -55,11 +55,33 @@ if __name__ == '__main__':
 
 Let's run through starting up a Flask server together.
 
-- Start your server by running `python3 app.py` in your terminal
+### Running Your Flask Server
 
-- Make a request in your browser to `localhost:5000` to see the response from your server.
+1. **Navigate to Your Starter Code Directory:**
 
-- While `5000` is the default port for Flask applications, you can set a different port in the `app.run()` method.
+   Open your terminal or command prompt, and navigate to the directory where your `app.py` file is located.
+
+2. **Start the Flask Server:**
+
+   To start your Flask server, run the following command in your terminal:
+
+   ```bash
+   python app.py
+   ```
+
+   > **Note:** Depending on how Python is installed on your system, you may need to use `python3` instead of `python`.
+   >
+   > ```bash
+   > python3 app.py
+   > ```
+
+3. **Access the Server:**
+
+   Once the server is running, you can access it by opening your web browser and going to [http://localhost:5000](http://localhost:5000). This is the default address where Flask serves your application.
+
+4. **Stop the Server:**
+
+   To stop the server, simply return to your terminal and press `Ctrl+C`. This will terminate the running Flask process.
 
 Note the elements of the server's output, especially when a request is made from the browser and logged in the server.
 
@@ -69,9 +91,22 @@ Our Flask application's goal is to respond to HTTP requests from users.
 
 Before we go further, **_what are the properties of an HTTP request?_**
 
-- Cover URLs and Methods and what they mean: GET requests access information, POST requests create resources, PUT and DELETE update and delete resources.
+<details>
+<summary>✅ Click to see the answer: </summary>
+<hr>
 
-- Discuss the concept of a request body sent with a POST request and parameters in the route URL itself, both query params and route params.
+<p>URL: Specifies the address of the resource being requested, including the path and optional query parameters (e.g., /products?category=shoes).</p>
+
+<p>HTTP Methods:</p>
+
+<ul>
+<li>GET: Retrieves information from the server without altering it.</li>
+<li>POST: Sends data to create a new resource.</li>
+<li>PUT: Updates an existing resource.</li>
+<li>DELETE: Removes a resource.</li>
+</ul>
+
+</details>
 
 ## Creating Routes in Flask
 

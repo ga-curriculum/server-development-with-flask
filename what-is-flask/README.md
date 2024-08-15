@@ -30,6 +30,10 @@ For an API to work effectively within a program, it needs to:
 
 - **Parse and Handle User Input**: An API should be able to parse the details provided in a user’s request, such as query parameters or data submitted in forms. Flask’s routing system allows you to capture and use these details to generate accurate responses.
 
+<br>
+
+![Image Placeholder](./assets/api-request.png)
+
 ## The Web Development Ecosystem
 
 In web development, technologies are generally divided into two categories:
@@ -37,10 +41,6 @@ In web development, technologies are generally divided into two categories:
 - **Front-End:** This includes HTML, CSS, and JavaScript, which handle everything the user interacts with directly in the browser, such as layout, design, and interactivity.
 
 - **Back-End:** This encompasses servers, databases, and the core application logic that operate behind the scenes, processing requests, managing data, and ensuring everything runs smoothly.
-
-<br>
-
-![Image Placeholder](./assets/api-request.png)
 
 ## Web Development with Flask
 
