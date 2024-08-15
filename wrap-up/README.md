@@ -9,7 +9,8 @@
 
 ## Wrapping Up
 
-| **Recap**                                                                                                         | **Looking Ahead**                                                                                                         |
-| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **In today’s class, we…**                                                                                         | **On your own:**                                                                                                          |
-| - Defined a class<br>- Instantiated an object from a class.<br>- Created classes with default instance variables. | - Continue on with OOP with the optional Inheritance challenges.<br><br>**Next Class:**<br>- Error Handling and Debugging |
+| **Recap**                                                                                                 | **Looking Ahead**                                                                                              |
+| --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **In today’s class, we…**                                                                               | **On your own:**                                                                                              |
+| - Created a basic Flask server.<br>- Created and managed RESTful routes in Flask.                        | - Complete unfinished exercises from the day's lesson.<br><br>**Next Class:**<br>- Flask Templates            |
+

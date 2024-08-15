@@ -1,23 +1,24 @@
 <!-- ! Do not delete or rename this file! -->
+
 <h1>
   <span class="prefix"></span>
   <span class="headline">Server Development with Flask</span>
 </h1>
 
-tktk add some default course navigation content here.
+## About
 
-tktk This landing page will be used when a student's course cannot be determined, so don't include any course-specific details.
+This module introduces students to the fundamentals of web development using Flask, a lightweight Python web framework. Students will learn how to set up a Flask environment, create a basic web server, and define RESTful routes to handle HTTP requests. By the end of the module, students will have a solid understanding of how to build and manage a simple web application using Flask, preparing them for more advanced topics in web development
 
 ## Content
 
-| Lesson                                                   | Skills                                  |
-| -------------------------------------------------------- | --------------------------------------- |
-| [Setup](./setup/README.md)                               | Setting up the development environment. |
-| [Concepts](./concepts/README.md)                         | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | tktk skills covered                     |
+| Lesson                                                                      | Skills                                                                                                      |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Setup](../setup/README.md)                                                 | Setting up the development environment.                                                                     |
+| [What is Flask?](../what-is-flask/README.md)                                | Understanding the basics of Flask, the purpose of web frameworks, and the role of Flask in web development. |
+| [Creating a Basic Flask Server](../creating-a-basic-flask-server/README.md) | Building a basic Flask server, handling HTTP requests, and returning responses.                             |
+| [Defining RESTful Routes](../defining-restful-routes/README.md)             | Creating and managing RESTful routes in Flask, handling different HTTP methods (GET, POST, etc.).           |
+| [Wrap Up](../wrap-up/README.md)                                             | Reviewing key concepts and preparing for the next module.                                                   |
 
-## Level Up content
+## References
 
-| Lesson                                                   | Skills              |
-| -------------------------------------------------------- | ------------------- |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | tktk skills covered |
+📖 [Reference Materials](../references/README.md)

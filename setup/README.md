@@ -5,23 +5,10 @@
 
 ## Setup
 
-Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
 
-```bash
-cd ~/code/ga/lectures
-```
+## TKTK they need to fork and clone the starter code for this
 
-Make a new directory called <code class="filepath">[server-development-with-flask]</code>, then enter this directory:
+## they need to start up a virtual env with whatever anaconda installed for them
 
-```bash
-mkdir [server-development-with-flask]
-cd [server-development-with-flask]
-```
+## they need to install all dependencies from the starter code repo
 
-<!-- Other setup instructions here -->
-
-Open the contents of the directory in VS Code:
-
-```bash
-code .
-```
