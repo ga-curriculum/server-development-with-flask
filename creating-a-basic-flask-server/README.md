@@ -51,7 +51,12 @@ if __name__ == '__main__':
 
 - You can modify `app.run()` to change the behavior of the server, such as enabling debug mode (`app.run(debug=True)`) or changing the port (`app.run(port=8080)`).
 
-## Guided Walk-Through: Running a Flask Application 15 min TKTK
+<br>
+
+<div class="activity guided-walkthrough">
+  <h2 class="title">2.1 Running a Flask Application</h2>
+  <span class="minutes">15 min</span>
+</div>
 
 Let's run through starting up a Flask server together.
 
@@ -85,7 +90,12 @@ Let's run through starting up a Flask server together.
 
 Note the elements of the server's output, especially when a request is made from the browser and logged in the server.
 
-## Discussion: HTTP Requests and Methods TKTK
+<br>
+
+<div class="activity discussion">
+  <h2 class="title">HTTP Requests and Methods</h2>
+  <span class="minutes"></span>
+</div>
 
 Our Flask application's goal is to respond to HTTP requests from users.
 

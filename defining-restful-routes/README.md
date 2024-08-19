@@ -39,7 +39,7 @@ The seven routes outlined in the table above are considered a best practice and 
 
 7. **GET /edit**: Similar to the "new" route, this one is used to show a form for editing an existing resource. If you need to change an employee's details, this route would bring up the necessary form pre-filled with the current data.
 
-> 🍎 Note that the bottom two routes (`/new` and `/edit`) are more relevant for applications with user interfaces, where forms are used to create or edit data. In pure data APIs, these routes are optional but can still be useful for rendering or documentation purposes.
+> 💡 Note that the bottom two routes (`/new` and `/edit`) are more relevant for applications with user interfaces, where forms are used to create or edit data. In pure data APIs, these routes are optional but can still be useful for rendering or documentation purposes.
 
 ### The Importance of Convention
 
@@ -51,9 +51,14 @@ These seven routes are part of a standard **RESTful architecture** that helps de
 
 - Using these standard routes helps ensure that your API can easily grow and adapt as your application evolves.
 
-## Group Exercise: API Routes 20 min TKTK
+<br>
 
-Create the seven routes listed in the table for a restaurant reviews application. Responses should be strings that describe the purpose for each route..
+<div class="activity group-exercise">
+  <h2 class="title">2.2 API Routes</h2>
+  <span class="minutes">20 min</span>
+</div>
+
+Create the seven routes listed in the table for a restaurant reviews application. Responses should be strings that describe the purpose for each route.
 
 | **URL Path**         | **Method** | **Name** | **Purpose**                             |
 | -------------------- | ---------- | -------- | --------------------------------------- |
