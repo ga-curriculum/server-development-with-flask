@@ -11,6 +11,8 @@
 
 ## Setting Up Your First Flask Server
 
+TKTK INSTALL FLASK
+
 Lets review the code you would use to create a simple Flask server:
 
 ```python
