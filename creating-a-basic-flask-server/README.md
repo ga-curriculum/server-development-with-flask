@@ -160,9 +160,20 @@ def get_product(product_id):
 
 ### How Dynamic Routes Work
 
-- **`@app.route("/products/<product_id>")`**: The `<product_id>` part of the route is a placeholder. Flask captures whatever value is in this position in the URL and passes it as an argument to the `get_product` function.
+Take a look at the url path in this route:
 
-- **`def get_product(product_id)`**: The captured value is passed as the `product_id` parameter to the function. This allows you to use the `product_id` inside your function to determine the appropriate response.
+```python
+@app.route("/products/<product_id>")
+```
+
+The `<product_id>` part of the route is a placeholder. Flask captures whatever value is in this position in the URL and passes it as an argument to the `get_product` function.
+
+```python
+@app.route("/products/<product_id>")
+    def get_product(product_id)
+```
+
+The captured value is passed as the `product_id` parameter to the function. This allows you to use the `product_id` inside your function to determine the appropriate response.
 
 ### Example Use Cases
 
@@ -170,10 +181,15 @@ def get_product(product_id):
 
 - If a user visits `/products/abcd1234`, the function will receive `abcd1234` as the `product_id`.
 
-This approach is fundamental in RESTful APIs, where you often need to handle resources identified by unique IDs. For example:
 
-- **GET** `/products/123`: Retrieve details for the product with ID 123.
+### HTTP Method + URL + ID
 
-- **DELETE** `/products/123`: Delete the product with ID 123.
+This approach is fundamental in RESTful APIs, where you often need to handle resources identified by unique IDs. 
+
+For example:
+
+- **GET** `/products/123`: *Retrieve* details for the product with `ID 123`.
+
+- **DELETE** `/products/123`: *Delete* the product with `ID 123`.
 
 Dynamic routes allow you to build flexible endpoints that cater to a wide range of user interactions with your application.

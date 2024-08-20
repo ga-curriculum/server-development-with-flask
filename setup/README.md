@@ -51,4 +51,4 @@ The practice exercises for this lesson can be found in the `02-server-developmen
 
    - Navigate to the `02-server-development-with-flask.py` file within the cloned repository.
 
-   - Double-click to open the file and review the exercises.
+   - Double-click to open the file and review the code.

@@ -7,7 +7,7 @@
 
 | Lesson                  | Duration |
 | ----------------------- | -------- |
-| Defining RESTful Routes | 30 min   |
+| Defining RESTful Routes | 50 min   |
 
 ## The Seven RESTful Routes
 
@@ -55,10 +55,10 @@ These seven routes are part of a standard **RESTful architecture** that helps de
 
 <div class="activity group-exercise">
   <h2 class="title">2.2 API Routes</h2>
-  <span class="minutes">20 min</span>
+  <span class="minutes">40 min</span>
 </div>
 
-Create the seven routes listed in the table for a restaurant reviews application. Responses should be strings that describe the purpose for each route.
+In this activity, you will create the seven routes listed in the table below for a restaurant reviews application. These routes won't be fully functional, instead, they will return simple strings that describe the purpose of each route. This will help you understand how to set up basic routes and test them in Flask.
 
 | **URL Path**         | **Method** | **Name** | **Purpose**                             |
 | -------------------- | ---------- | -------- | --------------------------------------- |
@@ -69,3 +69,49 @@ Create the seven routes listed in the table for a restaurant reviews application
 | `/reviews/<id>`      | DELETE     | delete   | Delete an item                          |
 | `/reviews/new`       | GET        | new      | Show the form to create a new item      |
 | `/reviews/<id>/edit` | GET        | edit     | Show the form to update a specific item |
+
+### Define the Routes
+
+- For each route in the table, create a corresponding function that returns a string describing what the route does.
+
+- Use the Flask `@app.route()` decorator to define each route and specify the appropriate HTTP method `(GET, POST, PUT, DELETE)`.
+
+Example for the `/reviews GET` route:
+
+```python
+@app.route('/reviews', methods=['GET'])
+def index():
+    return "Show the home page for this collection"
+```
+
+### Testing Each Route:
+
+- After defining a route, run your Flask server using `python app.py`.
+
+- Test each route by visiting the corresponding URL in your browser or using a tool like Postman or cURL.
+
+#### Example tests:
+
+- **Browser:** Open your browser and go to `http://127.0.0.1:5000/reviews` to see the response for the index route. The browser can be use to test the `GET` routes.
+
+- **Postman:** Use [Postman](https://www.postman.com/) to send `GET`, `POST`, `PUT`, and `DELETE` requests to the routes you've defined, verifying the responses.
+
+- **cURL:** `cURL` is a versatile command-line tool that is available and can be used in most terminal environments across different operating systems, including Windows, macOS, and Linux. You can send `GET`, `POST`, `PUT`, and `DELETE` requests using `cURL` with the following commands:
+  - GET
+    ```bash
+    curl http://127.0.0.1:5000/reviews
+    ```
+  - POST
+    ```bash
+    curl -X POST http://127.0.0.1:5000/reviews -d "review=Great food!"
+    ```
+  - PUT
+    ```bash
+    curl -X PUT http://127.0.0.1:5000/reviews/1 -d "review=Updated review"
+    ```
+  - DELETE
+    ```bash
+    curl -X DELETE http://127.0.0.1:5000/reviews/1
+    ```
+
+> Browsers can only test GET requests directly by entering a URL because they are designed to retrieve and display content; other methods like POST, PUT, and DELETE require tools like Postman or cURL.

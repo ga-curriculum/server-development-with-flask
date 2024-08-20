@@ -35,8 +35,8 @@ As you plan for your lesson:
 | 0:00–0:20 | Welcome + What is Flask                      |
 | 0:20–0:50 | Creating a Basic Flask Server                |
 | 0:50–1:00 | Break                                        |
-| 1:00–1:30 | Defining RESTful Routes                      |
-| 1:30–1:40 | Wrapping Up, Q&A, and Exit Ticket Completion |
+| 1:00–1:50 | Defining RESTful Routes                      |
+| 1:50–2:00 | Wrapping Up, Q&A, and Exit Ticket Completion |
 
 ## Jupyter Notebook
 
