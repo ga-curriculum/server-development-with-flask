@@ -38,13 +38,9 @@ As you plan for your lesson:
 | 1:00–1:50 | Defining RESTful Routes                      |
 | 1:50–2:00 | Wrapping Up, Q&A, and Exit Ticket Completion |
 
-## Jupyter Notebook
+## Lesson Exercises
 
-The exercises referenced in this lesson can be found in the [Python Workbooks Repo](#).
-
-Our first few lessons begin by reviewing the notebook as the same material was covered in the pre-work.
-
-If students feel that they are able to confidently solve the challenges in the workbook, you can quickly skim through the lesson content and have them only complete the challenges.
+The exercises referenced in this lesson can be found in the [Python Flask Exercises Repo](https://git.generalassemb.ly/modular-curriculum-all-courses/python-flask-exercises).
 
 ---
 

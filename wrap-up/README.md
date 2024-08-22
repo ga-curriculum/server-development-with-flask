@@ -9,8 +9,13 @@
 
 ## Wrapping Up
 
-| **Recap**                                                                                                 | **Looking Ahead**                                                                                              |
-| --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **In today’s class, we…**                                                                               | **On your own:**                                                                                              |
-| - Created a basic Flask server.<br>- Created and managed RESTful routes in Flask.                        | - Complete unfinished exercises from the day's lesson.<br><br>**Next Class:**<br>- Flask Templates            |
+| **Recap**                                                                         | **Looking Ahead**                                         |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| **In today’s class, we…**                                                         | **On your own:**                                          |
+| - Created a basic Flask server.<br>- Created and managed RESTful routes in Flask. | - Complete unfinished practice exercises from the lesson. |
 
+### Exit Tickets
+
+Please take the time to complete any **Exit Ticket Surveys** provided by your instructional team.
+
+![Exit Tickets](./assets/exit-ticket.png)

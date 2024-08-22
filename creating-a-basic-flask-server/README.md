@@ -9,9 +9,35 @@
 | ----------------------------- | -------- |
 | Creating a Basic Flask Server | 30 min   |
 
-## Setting Up Your First Flask Server
+## Install Flask
 
-TKTK INSTALL FLASK
+Before you can start creating your Flask server, you'll need to install Flask in your virtual environment. Follow these steps:
+
+1. **Open Your Terminal**:
+
+   - Ensure that your virtual environment (`ga-env`) is activated. You should see `(ga-env)` at the beginning of your terminal prompt.
+
+2. **Install Flask**:
+
+   - Run the following command to install Flask:
+
+   ```bash
+   pip install flask
+   ```
+
+   - This command uses `pip`, Python's package manager, to install Flask and any dependencies it requires.
+
+3. **Verify the Installation**:
+
+   - Once Flask is installed, you can verify that it was installed correctly by running the following command:
+
+   ```bash
+   python -m flask --version
+   ```
+
+   - You should see output that includes the Flask version number, confirming that Flask is installed and ready to use.
+
+## Setting Up Your First Flask Server
 
 Lets review the code you would use to create a simple Flask server:
 
@@ -181,15 +207,14 @@ The captured value is passed as the `product_id` parameter to the function. This
 
 - If a user visits `/products/abcd1234`, the function will receive `abcd1234` as the `product_id`.
 
-
 ### HTTP Method + URL + ID
 
-This approach is fundamental in RESTful APIs, where you often need to handle resources identified by unique IDs. 
+This approach is fundamental in RESTful APIs, where you often need to handle resources identified by unique IDs.
 
 For example:
 
-- **GET** `/products/123`: *Retrieve* details for the product with `ID 123`.
+- **GET** `/products/123`: _Retrieve_ details for the product with `ID 123`.
 
-- **DELETE** `/products/123`: *Delete* the product with `ID 123`.
+- **DELETE** `/products/123`: _Delete_ the product with `ID 123`.
 
 Dynamic routes allow you to build flexible endpoints that cater to a wide range of user interactions with your application.
