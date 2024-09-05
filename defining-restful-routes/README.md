@@ -51,6 +51,8 @@ These seven routes are part of a standard **RESTful architecture** that helps de
 
 - Using these standard routes helps ensure that your API can easily grow and adapt as your application evolves.
 
+<img src="./assets/pen-and-paper.png" alt="Pen and Paper" style="width: 300px; height: auto;">
+
 <br>
 
 <div class="activity group-exercise">

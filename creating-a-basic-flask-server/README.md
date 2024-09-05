@@ -59,6 +59,8 @@ if __name__ == '__main__':
 
 ## What's in the box?
 
+<img src="./assets/magnifying-glass.png" alt="Magnifying Glass Image" style="width: 300px; height: auto;">
+
 ### App Instance:
 
 - `app = Flask(__name__)` creates an instance of the Flask class. This `app` object is the central part of your application. The argument `__name__` helps Flask determine the root path for your application, allowing it to locate resources like templates and static files.
@@ -87,6 +89,8 @@ if __name__ == '__main__':
 </div>
 
 Let's run through starting up a Flask server together.
+
+<img src="./assets/gears.png" alt="Gears Image" style="width: 300px; height: auto;">
 
 ### Running Your Flask Server
 

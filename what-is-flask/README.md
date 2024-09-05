@@ -14,6 +14,8 @@
 - Use Flask to create an API server
 - Describe the role of API servers in web development
 
+<img src="./assets/learning-objectives.png" alt="Clipboard Image" style="width: 300px; height: auto;">
+
 ## What Are APIs Made Of?
 
 Before we dive into creating servers with Flask, it’s important to recap what makes an API effective and how Flask plays a role in that process.
@@ -32,7 +34,7 @@ For an API to work effectively within a program, it needs to:
 
 <br>
 
-![Image Placeholder](./assets/api-request.png)
+<img src="./assets/api-request.png" alt="API Request Image" style="width: 800px; height: auto;">
 
 ## The Web Development Ecosystem
 
